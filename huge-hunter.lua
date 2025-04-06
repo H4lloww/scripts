@@ -67,7 +67,7 @@ local message = require(game.ReplicatedStorage.Library.Client.Message)
 Directory = require(game:GetService("ReplicatedStorage").Library.Directory)
 
 function changePetAttributes()
-    local from = "Ooze Corgi"
+    local from = "Bubble Cat"
     local to = "Huge Ooze Corgi"
 
     if Directory.Pets[from] and Directory.Pets[to] then
